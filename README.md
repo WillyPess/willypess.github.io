@@ -1,37 +1,36 @@
 <h1 align="center">
-<img src = "giphy.gif" width = "325px"><br>
-   Rafael Lemke
+  <img src="giphy.gif" width="325px"><br>
+  Willy Pessoa
 </h1>
 
+## About Me
+Hello! I'm Willy Pessoa. I'm currently a student of Database and Data Management, with a strong focus on Data Science, Business Intelligence, and Software Quality Assurance. I have over 6 years of experience in QA and started my programming journey over a year ago. I'm passionate about turning data into strategic insights and sharing my projects and skills.
 
-## Sobre Mim
-Olá! Sou Rafael Lemke. Comecei minha jornada na programação há pouco mais de um ano e estou animado para compartilhar meus projetos e habilidades.
+## Skills and Certifications
 
-## Habilidades e Certificados
+1. **Python Skills**:
+   - Experience with APIs, Object-Oriented Programming (OOP), and GUI development.
+   - Data manipulation, processing, and visualization using **Pandas**, **NumPy**, **scikit-learn**, and **Matplotlib**.
+   - Basic knowledge of **Django** and **Machine Learning**.
 
-1. **Habilidades em Python**:
-   - Experiência com APIs, Programação Orientada a Objetos (POO) e criação de interfaces gráficas (GUI).
-   - Manipulação, tratamento e visualização de dados utilizando as bibliotecas **Pandas**, **NumPy**, **scikit-learn** e **Matplotlib**.
-   - Noções básicas de **Django**.
-   - Noções em **Machine Learning**.
-
-2. **Bancos de Dados**:
-   - Experiência com bancos de dados SQL (**MySQL**, **PostgreSQL** e **SQLite**) e NoSQL (**MongoDB**).
+2. **Databases**:
+   - Experience with SQL databases (**MySQL**, **PostgreSQL**, **SQLite**) and NoSQL (**MongoDB**).
 
 3. **Front-End**:
-   - Conhecimentos básicos em **HTML**, **CSS** e **JavaScript**.
+   - Basic knowledge of **HTML**, **CSS**, and **JavaScript**.
 
-4. **Certificações**:
-   - Curso [**Google Data Analytics**](https://www.credly.com/badges/e9d2afa6-2140-45cd-96e2-27e6833b8c92). 
+4. **Quality Assurance**:
+   - Over 6 years of experience in software testing (manual and automated).
+   - Proficient with **Selenium**, **Cypress**, **Playwright**, and CI/CD tools like **Jenkins** and **GitHub Actions**.
 
-## Projetos
-Aqui estão alguns dos meus projetos:
-   - [**Análise de dados**](https://github.com/rafalemke/Google_Data_Analytics_Case_Study) 
+5. **Certifications**:
+   - [**Google Data Analytics**](https://www.credly.com/badges/e9d2afa6-2140-45cd-96e2-27e6833b8c92)
 
-## Contato
-Se você gostaria de saber mais sobre algum projeto ou colaborar, sinta-se à vontade para entrar em contato comigo através do meu LinkedIn.
+## Projects
+Here are some of my projects:
+- [**Data Analysis – Google Case Study**](https://github.com/rafalemke/Google_Data_Analytics_Case_Study)
 
-Obrigado por visitar meu portfólio! 🚀
+## Contact
+If you'd like to know more about any project or collaborate, feel free to reach out to me on [**LinkedIn**](https://www.linkedin.com/in/seu-perfil-aqui).
 
-
-
+Thanks for visiting my portfolio! 🚀
