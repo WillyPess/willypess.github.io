@@ -4,171 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Willy Pessoa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #9f9fa3;
-            color: #333;
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            border-style: groove;
         }
 
-        h1 {
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f6f8;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: #fff;
+            padding: 40px 20px;
             text-align: center;
-            margin-top: 50px;
         }
 
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+        header img {
             border-radius: 50%;
+            width: 180px;
+            margin-bottom: 20px;
         }
 
-        .about, .skills {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 800px;
-            border-style: groove;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-        }
-
-        .about h2, .skills h2 {
-            color: #007bff;
-            margin-top: 0;
-        }
-
-        .about p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-
-        .skills ul {
-            padding-left: 20px;
-        }
-
-        .skills li {
+        header h1 {
+            font-size: 2.5em;
             margin-bottom: 10px;
         }
 
-        .contact {
-            text-align: center;
-            margin-bottom: 50px;
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
         }
 
-        .contact a {
-            color: #007bff;
-            text-decoration: none;
+        section {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            font-size: 1.6em;
+            color: #1f2937;
+            margin-bottom: 15px;
+        }
+
+        section ul, section ol {
+            margin-left: 20px;
+        }
+
+        section ul li, section ol li {
+            margin-bottom: 10px;
+        }
+
+        .icons a {
+            margin: 0 10px;
+            color: #1f2937;
+        }
+
+        .icons a:hover {
+            color: #2563eb;
         }
 
         footer {
             text-align: center;
-            background-color: #e2e2e2;
-            border-radius: 10px 10px 0px 0px;
-            padding: 2px;
-            margin: 2px auto;
-            max-width: 840px;
-            border-style: groove;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            font-size: 14px;
+            color: #6b7280;
         }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
 
-<h1>
-    <img src="giphy.gif" width="325px" alt="Willy Pessoa">
-    Willy Pessoa
-</h1>
+<header>
+    <img src="giphy.gif" alt="Willy Pessoa">
+    <h1>Willy Pessoa</h1>
+    <div class="icons">
+        <a href="https://github.com/willypess" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/seu-linkedin-aqui" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+</header>
 
-<div class="about" style="text-align: center;">
-    <h2>About Me</h2>
-    <p>Student of Database and Data Management, with a focus on Data Science and Business Intelligence.
-       Experienced in data analysis, dashboard creation (Qlik Sense, Power BI), and process automation for
-       strategic decision-making. Strong background in Software Quality Assurance with over 6 years of experience
-       in both manual and automated testing.<br><br>
-       I love turning data into strategic insights and I'm always looking for new challenges and learning
-       opportunities to improve my skills. 🚀
-    </p>
-    <a href="https://github.com/willypess" target="_blank"><i class="fab fa-github fa-2x" style="color: rgba(0, 0, 0, 0.808);"></i></a>
-    <a href="https://www.linkedin.com/in/seu-linkedin-aqui" target="_blank"><i class="fab fa-linkedin fa-2x" style="color: rgba(0, 0, 0, 0.808);"></i></a>
-</div>
+<div class="container">
+    <section>
+        <h2>About Me</h2>
+        <p>I’m a student of Database and Data Management with a strong focus on Data Science and Business Intelligence.
+            I have hands-on experience in data analysis, dashboard development (Power BI, Qlik Sense), and automation for strategic decision-making.
+            My foundation in Software Quality Assurance (6+ years) gives me a critical eye for detail and process improvement.
+        </p>
+    </section>
 
-<div class="skills">
-    <h2>Technical Skills</h2>
-    <ol>
-        <h3>Languages and Technologies</h3>
+    <section>
+        <h2>Technical Skills</h2>
+        <h3>Languages & Technologies</h3>
         <ul>
-            <li>Python (Data analysis, automation, and systems development)</li>
+            <li>Python (Data analysis, automation, systems development)</li>
             <li>SQL (Oracle PL/SQL, MySQL, PostgreSQL)</li>
             <li>NoSQL (MongoDB)</li>
-            <li>HTML, CSS, and JavaScript (basic)</li>
+            <li>HTML, CSS, JavaScript (basic)</li>
         </ul>
-        <h3>Data Analysis and Machine Learning</h3>
+        <h3>Data Analysis & Machine Learning</h3>
         <ul>
-            <li>Data visualization: Pandas, NumPy, Matplotlib, Seaborn</li>
-            <li>Machine Learning models: Scikit-learn, TensorFlow</li>
-            <li>ETL and orchestration: Pentaho Data Integration (PDI), Apache Airflow</li>
+            <li>Pandas, NumPy, Matplotlib, Seaborn</li>
+            <li>Scikit-learn, TensorFlow (basics)</li>
+            <li>ETL: Pentaho, Apache Airflow</li>
         </ul>
-        <h3>Development and APIs</h3>
+        <h3>Backend & API</h3>
         <ul>
-            <li>Backend development: Django, FastAPI</li>
-            <li>Interactive apps: Flet, Streamlit</li>
+            <li>Django, FastAPI</li>
+            <li>Streamlit, Flet for interactive dashboards</li>
         </ul>
-        <h3>Web Scraping and Automation</h3>
+        <h3>Automation & QA</h3>
         <ul>
-            <li>Web scraping: BeautifulSoup, Selenium, Requests</li>
+            <li>BeautifulSoup, Selenium, Requests</li>
+            <li>Selenium, Cypress, Playwright</li>
+            <li>Jenkins, GitHub Actions</li>
         </ul>
-        <h3>Other</h3>
-        <ul>
-            <li>Version control (Git)</li>
-            <li>Agile methodologies</li>
-        </ul>
-        <h3>Quality Assurance</h3>
-        <ul>
-            <li>Automated and manual testing</li>
-            <li>Frameworks: Selenium, Cypress, Playwright</li>
-            <li>CI/CD with Jenkins and GitHub Actions</li>
-            <li>Bug tracking with Jira and test management with TestRail</li>
-        </ul>
-    </ol>
-</div>
+    </section>
 
-<div class="skills">
-    <h2>Certificates</h2>
-    <ul>
-        <li>Google Data Analytics (Coursera) - <a href="https://www.credly.com/badges/e9d2afa6-2140-45cd-96e2-27e6833b8c92">Certificate</a></li>
-        <li>Data Scientist Course (Udemy) - <a href="https://www.udemy.com/certificate/UC-ab592417-43c2-43f5-adac-f78b800839ce/">Certificate</a></li>
-        <li>Pentaho for ETL & Data Integration (Udemy) - <a href="https://www.udemy.com/certificate/UC-ead11ab2-4dd6-4e01-89e2-29e3c2abbacd/">Certificate</a></li>
-        <li>Power BI Training (Alura) - <a>In progress</a></li>
-    </ul>
-</div>
+    <section>
+        <h2>Certificates</h2>
+        <ul>
+            <li><a href="https://www.credly.com/badges/e9d2afa6-2140-45cd-96e2-27e6833b8c92">Google Data Analytics (Coursera)</a></li>
+            <li><a href="https://www.udemy.com/certificate/UC-ab592417-43c2-43f5-adac-f78b800839ce/">Data Scientist Course (Udemy)</a></li>
+            <li><a href="https://www.udemy.com/certificate/UC-ead11ab2-4dd6-4e01-89e2-29e3c2abbacd/">Pentaho for ETL & Data Integration</a></li>
+            <li>Power BI Training (Alura) - In progress</li>
+        </ul>
+    </section>
 
-<div class="skills">
-    <h2>Projects and Repositories</h2>
-    <ol>
-        <h3>Data Analysis</h3>
+    <section>
+        <h2>Projects</h2>
         <ul>
-            <a href="https://github.com/willypess/Google_Data_Analytics_Case_Study">[ link ]</a> Case study from Google Data Analytics course (Coursera).
+            <li><a href="https://github.com/willypess/Google_Data_Analytics_Case_Study">Google Data Analytics Case Study</a> – Exploratory data analysis using real-world datasets.</li>
+            <li><a href="https://github.com/willypess/DIO_database_project">Database Modeling Project</a> – ER diagrams and relational implementation.</li>
+            <li><a href="https://github.com/willypess/Projeto_Django">Django App</a> – Web application using Django framework.</li>
         </ul>
-        <h3>Database Project</h3>
-        <ul>
-            <a href="https://github.com/willypess/DIO_database_project">[ link ]</a> Database modeling and implementation project.
-        </ul>
-        <h3>Django Project</h3>
-        <ul>
-            <a href="https://github.com/willypess/Projeto_Django">[ link ]</a> Web application using Django framework.
-        </ul>
-    </ol>
+    </section>
 </div>
-
-</body>
 
 <footer>
-    <p> © 2024 <strong>Willy Pessoa</strong> </p>
+    <p>&copy; 2024 <strong>Willy Pessoa</strong> – All rights reserved.</p>
 </footer>
 
+</body>
 </html>
