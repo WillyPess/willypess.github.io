@@ -24,6 +24,27 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
+        .top-bar {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .back-button {
+            background-color: #2563eb;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #1e40af;
+        }
+
         h1 {
             font-size: 2em;
             margin-bottom: 10px;
@@ -69,6 +90,10 @@
 
 <body>
     <div class="container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-button">← Back to Portfolio</a>
+        </div>
+
         <h1>📊 Crypto Portfolio Dashboard</h1>
         <p>
             This dashboard was developed in <strong>Power BI</strong> to provide a clear and dynamic view of the
@@ -115,14 +140,13 @@
             <li>Identifying short-term opportunities (top gainers/losers)</li>
             <li>Integrating with other BI tools for financial reporting</li>
         </ul>
+
         <h2>🖼️ Screenshot from Power BI</h2>
         <p>Below is a direct screenshot from the Power BI development environment, showing the data modeling and field
             setup during the creation of this dashboard:</p>
         <img src="screenshot-powerbi.png" alt="Power BI Data Modeling Screenshot">
 
         <a href="CryptoPortfolio.pdf" class="button" target="_blank">📎 Download Full Report (PDF)</a>
-
-
     </div>
 </body>
 
