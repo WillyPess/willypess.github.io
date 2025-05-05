@@ -24,19 +24,41 @@
         header {
             background-color: #1f2937;
             color: #fff;
-            padding: 40px 20px;
-            text-align: center;
+            padding: 20px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        header .header-left {
+            display: flex;
+            align-items: center;
         }
 
         header img {
             border-radius: 50%;
-            width: 180px;
-            margin-bottom: 20px;
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
         }
 
         header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .icons {
+            margin-top: 10px;
+        }
+
+        .icons a {
+            margin: 0 10px;
+            color: #fff;
+        }
+
+        .icons a:hover {
+            color: #60a5fa;
         }
 
         .container {
@@ -67,15 +89,6 @@
             margin-bottom: 10px;
         }
 
-        .icons a {
-            margin: 0 10px;
-            color: #1f2937;
-        }
-
-        .icons a:hover {
-            color: #2563eb;
-        }
-
         footer {
             text-align: center;
             padding: 20px;
@@ -87,8 +100,10 @@
 <body>
 
 <header>
-    <img src="giphy.gif" alt="Willy Pessoa">
-    <h1>Willy Pessoa</h1>
+    <div class="header-left">
+        <img src="giphy.gif" alt="Willy Pessoa">
+        <h1>Willy Pessoa</h1>
+    </div>
     <div class="icons">
         <a href="https://github.com/willypess" target="_blank"><i class="fab fa-github fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/seu-linkedin-aqui" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
