@@ -24,7 +24,7 @@
         header {
             background-color: #1f2937;
             color: #fff;
-            padding: 20px 20px;
+            padding: 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -46,6 +46,27 @@
         header h1 {
             font-size: 2em;
             margin: 0;
+        }
+
+        .header-center {
+            flex: 1;
+            text-align: center;
+        }
+
+        .resume-btn {
+            background-color: #3b82f6;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume-btn:hover {
+            background-color: #2563eb;
         }
 
         .icons {
@@ -104,6 +125,9 @@
         <img src="Screenshot 2025-05-05 203111.png" alt="Willy Pessoa">
         <h1>Willy Pessoa</h1>
     </div>
+    <div class="header-center">
+        <a href="Willy_Pessoa_Resume.pdf" class="resume-btn" download>📄 Download Resume</a>
+    </div>
     <div class="icons">
         <a href="https://github.com/willypess" target="_blank"><i class="fab fa-github fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/willy-pessoa/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
@@ -152,7 +176,7 @@
         <ul>
             <li><a href="https://media.licdn.com/dms/image/v2/C4E22AQFZky_1XTG1Ag/feedshare-shrink_1280/feedshare-shrink_1280/0/1584126213475?e=1749081600&v=beta&t=gICbYVLGvH3nhSsfMMbrQ2TCAn4nDXbwkf-d9VFZlB0">Certified Tester Foundation Level (CTFL).</a></li>
             <li><a href="https://www.credly.com/badges/792f1db0-5703-4ba9-a192-e4691bba8717">Scrum Foundation Professional Certification (Certi Prof)</a></li>
-            <li><a href="hhttps://www.linkedin.com/feed/update/urn:li:activity:7071110928401924096/">English Certificate</a></li>
+            <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7071110928401924096/">English Certificate</a></li>
             <li>Power BI Training (Alura) - In progress</li>
         </ul>
     </section>
@@ -166,15 +190,14 @@
             <li><a href="https://github.com/willypess/Projeto_Django">Django App</a> – Web application using Django framework.</li>
         </ul>
     </section>
-    <section>
-      <h2>Projects – Quality Assurance</h2>
-      <ul>
-          <li><a href="https://github.com/WillyPess/CypressAdvanced">Cypress Advanced – GitLab POC</a> – Automated end-to-end tests including UI and API validations, and a Dockerized GitLab environment.</li>
-          <li><a href="https://github.com/WillyPess/TestComplete101">TestComplete 101</a> – Introductory automation project using SmartBear TestComplete focused on desktop application testing</li>
-          <li><a href="https://github.com/WillyPess/ProtractorBDD">Protractor BDD</a> – Test automation using Protractor with Cucumber (BDD).</li>
-      </ul>
-    </section>
 
+    <section>
+        <h2>Projects – Quality Assurance</h2>
+        <ul>
+            <li><a href="https://github.com/WillyPess/CypressAdvanced">Cypress Advanced – GitLab POC</a> – Automated end-to-end tests including UI and API validations, and a Dockerized GitLab environment.</li>
+            <li><a href="https://github.com/WillyPess/TestComplete101">TestComplete 101</a> – Introductory automation project using SmartBear TestComplete focused on desktop application testing</li>
+            <li><a href="https://github.com/WillyPess/ProtractorBDD">Protractor BDD</a> – Test automation using Protractor with Cucumber (BDD).</li>
+        </ul>
     </section>
 </div>
 
