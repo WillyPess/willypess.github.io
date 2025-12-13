@@ -25,6 +25,6 @@ Hello! I'm Willy Pessoa. I'm currently a student of Database and Data Management
   
      
 ## Contact
-If you'd like to know more about any project or collaborate, feel free to reach out to me on [**LinkedIn**](https://www.linkedin.com/in/seu-perfil-aqui).
+If you'd like to know more about any project or collaborate, feel free to reach out to me on [**LinkedIn**](https://www.linkedin.com/in/willy-pessoa/).
 
 Thanks for visiting my portfolio! 🚀
