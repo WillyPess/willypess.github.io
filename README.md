@@ -22,14 +22,8 @@ Hello! I'm Willy Pessoa. I'm currently a student of Database and Data Management
 4. **Quality Assurance**:
    - Over 6 years of experience in software testing (manual and automated).
    - Proficient with **Selenium**, **Cypress**, **Playwright**, and CI/CD tools like **Jenkins** and **GitHub Actions**.
-
-5. **Certifications**:
-   - [**Google Data Analytics**](https://www.credly.com/badges/e9d2afa6-2140-45cd-96e2-27e6833b8c92)
-
-## Projects
-Here are some of my projects:
-- [**Data Analysis – Google Case Study**](https://github.com/rafalemke/Google_Data_Analytics_Case_Study)
-
+  
+     
 ## Contact
 If you'd like to know more about any project or collaborate, feel free to reach out to me on [**LinkedIn**](https://www.linkedin.com/in/seu-perfil-aqui).
 
