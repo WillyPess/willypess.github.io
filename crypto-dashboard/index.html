@@ -1,153 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Portfolio Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f7f9fb;
-            color: #2c3e50;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        .top-bar {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .back-button {
-            background-color: #2563eb;
-            color: #ffffff;
-            padding: 10px 20px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 500;
-            transition: background-color 0.3s ease;
-        }
-
-        .back-button:hover {
-            background-color: #1e40af;
-        }
-
-        h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            margin-top: 30px;
-            font-size: 1.4em;
-        }
-
-        p {
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 20px;
-            margin-bottom: 20px;
-        }
-
-        img {
-            width: 100%;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-
-        a.button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background-color: #2563eb;
-            color: #fff;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        a.button:hover {
-            background-color: #1e40af;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="top-bar">
-            <a href="../index.html" class="back-button">← Back to Portfolio</a>
+
+<main class="container">
+
+    <a href="../index.html" class="resume-btn">Back to Portfolio</a>
+    <section>
+        <h1>Crypto Portfolio Dashboard</h1>
+        <p>
+            This project demonstrates how business intelligence tools can be used to monitor
+            and analyse cryptocurrency markets in near real time. The dashboard was built in
+            Power BI using live data sourced from the CoinGecko API.
+        </p>
+
+        <h2>Tools and Technologies</h2>
+        <ul>
+            <li>Power BI Desktop for interactive reporting</li>
+            <li>Power Query for data cleansing and preparation</li>
+            <li>CoinGecko API as a real-time data source</li>
+        </ul>
+
+        <h2>Business Questions Addressed</h2>
+        <ul>
+            <li>Which assets have the highest market capitalisation?</li>
+            <li>Which cryptocurrencies are gaining or losing value?</li>
+            <li>How volatile is the market on a daily basis?</li>
+        </ul>
+
+        <h2>Dashboard Capabilities</h2>
+        <ul>
+            <li>High-level market overview</li>
+            <li>Performance comparison across assets</li>
+            <li>User-driven filtering and exploration</li>
+        </ul>
+
+        <h2>Development View</h2>
+        <img src="screenshot-powerbi.png" alt="Power BI dashboard development view">
+
+        <div class="button-group">
+            <a href="CryptoPortfolio.pdf" target="_blank" class="button">
+                Download Report (PDF)
+            </a>
+
+            <a href="Crypto Portfolio.pbix" class="button secondary" download>
+                Download Power BI Project (PBIX)
+            </a>
         </div>
+    </section>
 
-        <h1>📊 Crypto Portfolio Dashboard</h1>
-        <p>
-            This dashboard was developed in <strong>Power BI</strong> to provide a clear and dynamic view of the
-            cryptocurrency market. The data was retrieved using the public API from <strong>CoinGecko</strong>, ensuring
-            real-time updates with the latest information on prices, volumes, and market caps.
-        </p>
+</main>
 
-        <h2>🧩 Technologies and Tools Used</h2>
-        <ul>
-            <li>Power BI Desktop for data modeling and visualization</li>
-            <li>Power Query for data transformation</li>
-            <li>CoinGecko API for live cryptocurrency data</li>
-        </ul>
-
-        <h2>📑 Data Overview</h2>
-        <p>The dataset contains key information for the top cryptocurrencies, including:</p>
-        <ul>
-            <li><strong>Symbol:</strong> Crypto ticker (e.g., BTC, ETH)</li>
-            <li><strong>Name:</strong> Full name of the cryptocurrency</li>
-            <li><strong>24h Price Change %:</strong> Daily variation in price</li>
-            <li><strong>Current Price:</strong> Real-time market price in USD</li>
-            <li><strong>Market Cap:</strong> Total market capitalization</li>
-            <li><strong>Rank:</strong> Position based on market cap</li>
-            <li><strong>All Time High (ATH):</strong> Historical highest price</li>
-            <li><strong>Image:</strong> Coin logos used for visual representation</li>
-        </ul>
-
-        <h2>📈 Dashboard Features</h2>
-        <ul>
-            <li>Overview cards for major coins (BTC, ETH, SOL)</li>
-            <li>Market cap gauge visualization</li>
-            <li>Top 5 gainers and losers bar charts</li>
-            <li>Interactive filters to explore symbol, price, and rank</li>
-        </ul>
-
-        <h2>🌐 Real-World Applications</h2>
-        <p>
-            This type of dashboard can be useful for both investors and analysts who need a quick, insightful overview
-            of the crypto market. Use cases include:
-        </p>
-        <ul>
-            <li>Tracking portfolio performance for retail or institutional investors</li>
-            <li>Monitoring market volatility in real-time</li>
-            <li>Identifying short-term opportunities (top gainers/losers)</li>
-            <li>Integrating with other BI tools for financial reporting</li>
-        </ul>
-
-        <h2>🖼️ Screenshot from Power BI</h2>
-        <p>Below is a direct screenshot from the Power BI development environment, showing the data modeling and field
-            setup during the creation of this dashboard:</p>
-        <img src="screenshot-powerbi.png" alt="Power BI Data Modeling Screenshot">
-
-        <a href="CryptoPortfolio.pdf" class="button" target="_blank">📎 Download Full Report (PDF)</a>
-    </div>
 </body>
-
 </html>
