@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Willy Pessoa" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Willy Pessoa">Willy Pessoa</h1>
+
+          <p class="title">Test Software Engineer</p>
+        </div>
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/willy-pessoa/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/willypess" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:willypessoa12@gmail.com" class="contact-link">willypessoa12@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+610402884423" class="contact-link">+61 0402 884 423</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gold Coast, QLD, Australia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+
+
+      </div>
+
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR (links to separate pages)
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link  active">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./skills.html" class="navbar-link">Skills</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./experience.html" class="navbar-link">Experience</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./portfolio.html" class="navbar-link">Portfolio</a>
+          </li>
+
+           <li class="navbar-item">
+            <a href="./assets/Willy Pessoa - Resume - Software TesterV2.pdf" class="navbar-link resume-download-btn" download>
+              Download CV
+            </a>
+          </li>
+    
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Dedicated Software Test Specialist with over 6 years of experience delivering high-quality solutions for
+            FinTech and Enterprise sectors. I am an expert in Test Automation using Cypress and Selenium, with a
+            specialized focus on API validation and backend testing through SQL and Database integrity.
+          </p>
+          <p>
+            Currently based in the Gold Coast, I leverage my background in Database Management to implement advanced
+            data-driven QA strategies. I am committed to reducing bug leakage and accelerating CI/CD pipelines
+            through modern DevOps methodologies.
+          </p>
+          <p>
+            <strong>Certified ISTQB and Scrum professional dedicated to engineering excellence and continuous quality
+              improvement.</strong>
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Automation icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Test Automation</h4>
+                <p class="service-item-text">
+                  Building robust automated frameworks using Cypress and Selenium. I focus on increasing test
+                  coverage and integrating automated suites into CI/CD pipelines via Jenkins.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="API icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API & Backend Testing</h4>
+                <p class="service-item-text">
+                  Validating complex data flows and API endpoints using Postman, RestAssured, and SoapUI.
+                  I ensure system reliability through thorough database validation using MySQL and PostgreSQL.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg" alt="Database icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Integrity</h4>
+                <p class="service-item-text">
+                  Specializing in Database Management to provide advanced backend testing. I design efficient
+                  data flows and use optimized queries to ensure data integrity across various environments.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Quality Engineering icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Quality Engineering</h4>
+                <p class="service-item-text">
+                  Implementing TDD principles and DevOps methodologies to accelerate delivery. I focus on
+                  reducing bug leakage through rigorous planning, validation, and version control management.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+        </ul>
+        <br><br> 
+        
+        <!-- 
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
